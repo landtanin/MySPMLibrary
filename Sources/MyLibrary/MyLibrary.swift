@@ -1,7 +1,7 @@
 public struct MyLibrary {
     var text = "Hello, World!"
     
-    func libPrint(content: String) {
+    public func libPrint(content: String) {
         print(content)
     }
 }
